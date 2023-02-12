@@ -1,0 +1,42 @@
+/* Overriding third party css styles */
+.title-of-page {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 5px 0;
+    text-transform: uppercase;
+    color: #fff;
+}
+.chart-container .col-md-6{
+    overflow: hidden;
+}
+.demo-stuff {
+    color: #FFFFFF;
+    margin: 5px 15px;
+    /* opacity: .86; */
+    border-radius: 4px;
+    display: block;
+    padding: 10px 15px;
+    background: rgba(255, 255, 255, 0.23);
+    overflow: hidden;
+}
+.demo-stuff >.card-header{
+    border-bottom: white 3px solid !important;
+    background-color: #2f4f4f00;
+    text-transform: uppercase;
+}
+
+
+  select {
+    border: none;
+    outline: none;
+    background: #e1d0ff6e;
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+    padding: 5px 20px;
+    color: #8456d4;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 2em;
+    border-bottom: 5px solid #fff;
+  }
