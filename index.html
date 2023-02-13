@@ -29,7 +29,9 @@
      <!-- CSS Files -->
      <link href="static/dependencies/css/bootstrap.min.css" rel="stylesheet" />
      <link href="static/dependencies/css/light-bootstrap-dashboard.css?v=2.0.0 " rel="stylesheet" />
-     <!-- CSS Just for demo purpose, don't include it in your project -->
+
+
+     <!-- css to override the template styling -->
      <link href="static/css/style.css" rel="stylesheet" />
  </head>
  
@@ -39,7 +41,7 @@
              <div class="sidebar-wrapper">
                  <div class="logo">
                      <a href="#" class="simple-text">
-                          Analysis
+                          <span style="font-weight: 900;">B</span> | <span style="font-weight: 900;">B</span> | <span style="font-weight: 900;">D</span>
                      </a>
                  </div>
                  <ul class="nav">
@@ -101,14 +103,14 @@
                          <div class="col-md-6">
                              <div class="card ">
                                  <div class="card-body ">
-                                     <div id="bar" c></div>
+                                     <div id="bar"></div>
                                  </div>
                              </div>
                          </div>
                          <div class="col-md-6">
                              <div class="card ">
                                  <div class="card-body ">
-                                     <div id="gauge" class="ct-chart "></div>
+                                     <div id="gauge"></div>
                                  </div>
                              </div>
                          </div>
@@ -117,7 +119,7 @@
                          <div class="col-md-12">
                              <div class="card ">
                                  <div class="card-body ">
-                                     <div id="bubble" ></div>
+                                     <div id="bubble"></div>
                                  </div>
                              </div>
                          </div>
@@ -148,34 +150,14 @@
  <script src="https://d3js.org/d3.v5.min.js"></script>
  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
  <script src="./static/js/app.js"></script>
- <script src="./static/js/bonus.js"></script>
+
+ <!-- this has been commented out as I included the bonus task in the main plots function -->
+ <!-- <script src="./static/js/bonus.js"></script> -->
  
  
- <!--   Core JS Files   -->
+ <!--   Core JS dependencies   -->
  <script src="static/dependencies/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
- <script src="static/dependencies/js/core/popper.min.js" type="text/javascript"></script>
  <script src="static/dependencies/js/core/bootstrap.min.js" type="text/javascript"></script>
- <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
- <script src="static/dependencies/js/plugins/bootstrap-switch.js"></script>
- <!--  Google Maps Plugin    -->
- <!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> -->
- <!--  Chartist Plugin  -->
- <!-- <script src="../assets/js/plugins/chartist.min.js"></script> -->
- <!--  Notifications Plugin    -->
- <!-- <script src="../assets/js/plugins/bootstrap-notify.js"></script> -->
- <!-- Control Center for Light Bootstrap Dashboard: scripts for the example pages etc -->
- <script src="static/dependencies/js/light-bootstrap-dashboard.js?v=2.0.0 " type="text/javascript"></script>
- <!-- Light Bootstrap Dashboard DEMO methods, don't include it in your project! -->
- <!-- <script src="../assets/js/demo.js"></script> -->
- <!-- <script type="text/javascript">
-     $(document).ready(function() {
-         // Javascript method's body can be found in assets/js/demos.js
-         demo.initDashboardPageCharts();
- 
-         demo.showNotification();
- 
-     });
- </script> -->
  
  </html>
  
